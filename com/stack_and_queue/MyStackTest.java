@@ -9,12 +9,10 @@ public class MyStackTest {
 		MyNode<Integer> myFirstNode = new MyNode<>(70);
 		MyNode<Integer> mySecondNode = new MyNode<>(30);
 		MyNode<Integer> myThirdNode = new MyNode<>(56);
-		
+		MyLinkedList myLinkedList = new MyLinkedList();
 		myStack.push(myFirstNode);
 		myStack.push(mySecondNode);
 		myStack.push(myThirdNode);
-		INode peak = myStack.peak();
 		myStack.printStack();
-		Assert.assertEquals(myThirdNode,peak);
 	}
 }

@@ -13,11 +13,6 @@ public class MyStack<T> {
 
 	public void printStack() {
 		myLinkedList.printMyNode();
-
-	}
-
-	public INode peak() {
-		return myLinkedList.head;
 	}
 
 }

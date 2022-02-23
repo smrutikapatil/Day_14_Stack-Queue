@@ -44,6 +44,12 @@ public class MyLinkedList {
 		return null;
 	}
 
+	public INode dequeue() {
+		INode tempNode = this.head;
+		this.head = head.getNext();
+		return tempNode;
+	}
+
 	public void printMyNode() {
 		System.out.println(head);
 	}

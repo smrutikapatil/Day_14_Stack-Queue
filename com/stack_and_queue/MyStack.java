@@ -7,10 +7,14 @@ public class MyStack<T> {
 		this.myLinkedList = new MyLinkedList();
 	}
 
-    public INode enqueue(MyNode<Integer> myenqueueNode) {
-        return myLinkedList.enqueue(myenqueueNode);
-    }
-    
+	public INode enqueue(MyNode<Integer> myenqueueNode) {
+		return myLinkedList.enqueue(myenqueueNode);
+	}
+
+	public INode dequeue() {
+		return myLinkedList.dequeue();
+	}
+
 	public void push(INode myNode) {
 		myLinkedList.add(myNode);
 	}
@@ -22,6 +26,7 @@ public class MyStack<T> {
 	public INode pop() {
 		return myLinkedList.pop();
 	}
+
 	public void printStack() {
 		myLinkedList.printMyNode();
 	}

@@ -9,6 +9,3 @@ public interface INode<K> {
 
 	void setNext(INode<K> next);
 }
-
-
-

@@ -7,9 +7,9 @@ public class MyStack<T> {
 		this.myLinkedList = new MyLinkedList();
 	}
 
-    public INode enqueue(MyNode<Integer> myenqueueNode) {
-        return myLinkedList.enqueue(myenqueueNode);
-    }
+        public INode enqueue(MyNode<Integer> myenqueueNode) {
+		return myLinkedList.enqueue(myenqueueNode);
+        }
     
 	public void push(INode myNode) {
 		myLinkedList.add(myNode);

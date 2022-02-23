@@ -10,9 +10,9 @@ public class MyStackTest {
 		MyNode<Integer> mySecondNode = new MyNode<>(30);
 		MyNode<Integer> myThirdNode = new MyNode<>(70);
 		
-		myStack.enOueue(myFirstNode);
+		myStack.enqueue(myFirstNode);
 		myStack.enqueue(mySecondNode);
-		myStack.enoueue(myThirdNode);
+		myStack.enqueue(myThirdNode);
 		myStack.printStack();
 	}
 }
